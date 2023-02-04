@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "gera": "webpack -w"
+    "gera": "webpack -w",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
