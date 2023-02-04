@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "gera": "webpack -w",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run gera"
   },
   "author": "",
   "license": "ISC",
